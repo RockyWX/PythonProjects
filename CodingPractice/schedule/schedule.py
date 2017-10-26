@@ -18,7 +18,7 @@ class Schedule(object):
 
     tasks = None
 
-    def __init__(self):
+    def __init__(self):  # method contains self
         if os.path.isfile(FILEPATH):
             with open(FILEPATH, 'r+') as f:
                 self.tasks = yaml.load(f)
