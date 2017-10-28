@@ -1,6 +1,7 @@
 # Created by .ignore support plugin (hsz.mobi)
 .gitignore
 .idea/workspace.xml
+env/pip-selfcheck.json
 CodingPractice/.ipynb_checkpoints/
 CodingPractice/JupyterPractice.ipynb
 CodingPractice/data.csv
@@ -183,3 +184,19 @@ env/lib/python2.7/site-packages/widgetsnbextension/
 env/lib/python2.7/site-packages/zmq/
 env/lib/python2.7/site-packages/requests/
 env/share/
+env/bin/flask
+env/lib/python2.7/site-packages/Flask-0.12.2.dist-info/
+env/lib/python2.7/site-packages/Werkzeug-0.12.2.dist-info/
+env/lib/python2.7/site-packages/click-6.7.dist-info/
+env/lib/python2.7/site-packages/click/
+env/lib/python2.7/site-packages/flask/
+env/lib/python2.7/site-packages/itsdangerous-0.24.dist-info/
+env/lib/python2.7/site-packages/itsdangerous.py
+env/lib/python2.7/site-packages/itsdangerous.pyc
+env/lib/python2.7/site-packages/werkzeug/
+CodingPractice/blogger/blog.db
+CodingPractice/blogger/config.pyc
+env/lib/python2.7/site-packages/Flask_SQLAlchemy-2.3.2.dist-info/
+env/lib/python2.7/site-packages/SQLAlchemy-1.1.14.dist-info/
+env/lib/python2.7/site-packages/flask_sqlalchemy/
+env/lib/python2.7/site-packages/sqlalchemy/

@@ -1,4 +1,10 @@
-# import httplib  # bad library...
+# --- Functionality --- #
+# Crawl web page 'https://jsonplaceholder.typicode.com' content and output a JSON file
+# Crawl web page 'https://en.wikipedia.org/wiki/Leonard_Cohen':
+#   Get page title
+#   Get hyperlinks: numbers and urls
+# Implement multi-thread workers with FIFO safe queue, safe counter and safe lock
+
 import requests
 from bs4 import BeautifulSoup  # bs4 (beautiful soup library)
 import datetime  # time-consuming
@@ -30,11 +36,6 @@ def worker(thread_id, safe_queue):
 
         for i in range(new_task_num):
             time.sleep(1)  # slow down crawling: sleep 1s before every fetching data action
-
-            # conn = httplib.HTTPSConnection('jsonplaceholder.typicode.com')
-            # conn.request('GET', '/posts')
-            # resp = conn.getresponse()
-            # resp.read()  # get str data
 
             resp = requests.get('https://jsonplaceholder.typicode.com')
             print('status code is %d' % resp.status_code)

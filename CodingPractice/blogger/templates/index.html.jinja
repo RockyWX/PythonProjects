@@ -1,0 +1,17 @@
+<html>
+    <head>
+    <title>Blogger</title>
+    </head>
+    <body>
+        {% if user %}
+            Welcome {{ user.username }}, here are your blogs.
+            <p>You can <a href="/create">create</a> a new blog, or <a href="/logout">logout</a></p>
+            {% for blog in blogs %}
+            <div><p>{{ blog.content }}</p></div>
+            {% endfor %}
+        {% else %}
+            You are not logged in. Please <a href="/login">login</a>
+            <p>or <a href="/signup">Sign up here</a></p>
+        {% endif %}
+    </body>
+</html>
