@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="4a65e586-b67c-4c0a-ba5a-c0389a9bb346" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CodingPractice/web_crawler/web_crawler.py" afterPath="$PROJECT_DIR$/CodingPractice/web_crawler/web_crawler.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -14,11 +13,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="web_crawler.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="web_crawler.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/CodingPractice/web_crawler/web_crawler.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" column="0" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+            <state relative-caret-position="557">
+              <caret line="60" column="26" lean-forward="false" selection-start-line="60" selection-start-column="16" selection-end-line="60" selection-end-column="26" />
               <folding>
                 <element signature="e#316#331#0" expanded="true" />
               </folding>
@@ -26,7 +25,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="-11">
@@ -614,21 +613,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/CodingPractice/web_crawler/web_crawler.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="0" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-          <folding>
-            <element signature="e#316#331#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-11">
           <caret line="2" column="19" lean-forward="false" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CodingPractice/web_crawler/web_crawler.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="557">
+          <caret line="60" column="26" lean-forward="false" selection-start-line="60" selection-start-column="16" selection-end-line="60" selection-end-column="26" />
+          <folding>
+            <element signature="e#316#331#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
